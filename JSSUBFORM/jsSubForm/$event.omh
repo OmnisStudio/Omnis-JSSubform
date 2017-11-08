@@ -1,0 +1,4 @@
+On evLayoutChanged
+	If iFormOpenFlag
+		Do $cinst.$objs.SubForm.$top.$assign(120)
+	End If

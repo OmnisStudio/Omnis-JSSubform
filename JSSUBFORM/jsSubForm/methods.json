@@ -1,0 +1,154 @@
+[
+	{
+		"name": "$construct",
+		"ident": 1,
+		"order": 1,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$destruct",
+		"ident": 2,
+		"order": 2,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$event",
+		"ident": 0,
+		"order": 3,
+		"clientexec": true,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "openform",
+		"ident": 3,
+		"order": 4,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pClassName",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$getdata",
+		"ident": 4,
+		"order": 5,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pTitle",
+				"order": 1,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 1
+			},
+			{
+				"name": "pPrompt",
+				"order": 2,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 2
+			},
+			{
+				"name": "pAnswer",
+				"order": 3,
+				"type": "kFieldreference",
+				"subtype": 0,
+				"sublen": 0,
+				"param": 3
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setdata",
+		"ident": 5,
+		"order": 6,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pAnswer",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$closeform",
+		"ident": 6,
+		"order": 7,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$getCallingInst",
+		"ident": 7,
+		"order": 8,
+		"clientexec": false,
+		"pvardefs": [
+
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
+		"name": "$setCallingInst",
+		"ident": 8,
+		"order": 9,
+		"clientexec": false,
+		"pvardefs": [
+			{
+				"name": "pCallingInst",
+				"order": 1,
+				"type": "kItemref",
+				"subtype": "",
+				"sublen": 0,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	}
+]

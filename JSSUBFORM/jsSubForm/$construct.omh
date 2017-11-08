@@ -1,0 +1,4 @@
+;  Enter your initialization code here
+
+Calculate iTitle as 'Name Request'
+Calculate iPrompt as 'Please enter your name ?'

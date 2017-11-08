@@ -1,0 +1,8 @@
+Do $cwind.$setCallingInst($cinst)
+
+Do $cinst.$objs.SubForm.$classname.$assign(pClassName)
+Do $cinst.$objs.SubForm.$top.$assign(120)
+;  Do $cinst.$objs.SubForm.$left.$assign(100)     ;; use kEFcenterLeftRight instead
+Do $cinst.$objs.SubForm.$visible.$assign(kTrue)
+
+Calculate iFormOpenFlag as kTrue

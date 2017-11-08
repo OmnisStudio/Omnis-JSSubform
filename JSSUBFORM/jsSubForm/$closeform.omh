@@ -1,0 +1,4 @@
+Do $cinst.$objs.SubForm.$classname.$assign('jsSubFormEmpty')
+Do $cinst.$objs.SubForm.$visible.$assign(kFalse)
+
+Calculate iFormOpenFlag as kFalse
